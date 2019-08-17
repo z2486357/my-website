@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WorkStoreService } from './work-store.service';
 
 @Component({
   selector: 'app-work',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work.component.css']
 })
 export class WorkComponent implements OnInit {
+  
+  get displayChoose() {return this.workStore.displayChoose;}
 
-  constructor() { }
+  constructor(private workStore:WorkStoreService) { }
 
   ngOnInit() {
   }
 
+
+  displayWork(choose:string){
+    this.workStore.displayChoose=choose;
+  }
 }

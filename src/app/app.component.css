@@ -1,4 +1,7 @@
-.btn{
+button.topic{
     font-family: fantasy;
     border:none;
+}
+.clickable{
+    cursor: pointer;
 }

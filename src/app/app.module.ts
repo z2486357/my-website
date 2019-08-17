@@ -7,6 +7,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProfileComponent } from './profile/profile.component';
 import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
+import { AngularWorkComponent } from './work/angular-work/angular-work.component';
+import { PythonWorkComponent } from './work/python-work/python-work.component';
+import { AndroidWorkComponent } from './work/android-work/android-work.component';
+import { RecipeBookComponent } from './work/angular-work/recipe-book/recipe-book.component';
+import { WorkStoreService } from './work/work-store.service';
 
 @NgModule({
   declarations: [
@@ -14,13 +19,17 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     ProfileComponent,
     WorkComponent,
-    ContactComponent
+    ContactComponent,
+    AngularWorkComponent,
+    PythonWorkComponent,
+    AndroidWorkComponent,
+    RecipeBookComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [WorkStoreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

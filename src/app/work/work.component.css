@@ -1,0 +1,34 @@
+.programmingLanguage{
+    height:10vh;
+    cursor: pointer;
+}
+.putMiddle{
+    text-align:center;
+}
+.putLeft{
+    text-align:left;
+}
+.pictureBox{
+    width: 20vw;
+    height: 35vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.topicPicture{
+    max-width: 20vw;
+    max-height: 35vh;
+}
+.workTopic{
+    cursor: pointer;
+    margin-top: 3vh;
+    font-weight: bold;
+    color: darkcyan;
+    text-decoration: underline;
+    text-align: left
+}
+.descriptionPlace{
+    height: 15vh
+}
+.clickable{
+    cursor: pointer;
+}

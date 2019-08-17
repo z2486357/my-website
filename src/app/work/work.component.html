@@ -1,3 +1,23 @@
-<p>
-  work works!
-</p>
+<div class="row">
+  <div class="col-md-4 putMiddle">
+    <img src="../../assets/angular_button.jpg" class="programmingLanguage" (click)="displayWork('angular')" *ngIf="displayChoose!='angular'">
+    <img src="../../assets/angular_button_choose.jpg" class="programmingLanguage" (click)="displayWork('angular')" *ngIf="displayChoose=='angular'">
+  </div>
+  <div class="col-md-4 putMiddle">
+    <img src="../../assets/python_button.jpg" class="programmingLanguage" (click)="displayWork('python')" *ngIf="displayChoose!='python'">
+    <img src="../../assets/python_button_choose.jpg" class="programmingLanguage" (click)="displayWork('python')" *ngIf="displayChoose=='python'">
+  </div>
+  <div class="col-md-4 putMiddle">
+    <img src="../../assets/android_button.jpg" class="programmingLanguage" (click)="displayWork('android')" *ngIf="displayChoose!='android'">
+    <img src="../../assets/android_button_choose.jpg" class="programmingLanguage" (click)="displayWork('android')" *ngIf="displayChoose=='android'">
+  </div>
+</div>
+<div class="row" *ngIf="displayChoose=='angular'">
+  <app-angular-work></app-angular-work>
+</div>
+<div class="row" *ngIf="displayChoose=='python'">
+  <app-python-work></app-python-work>
+</div>
+<div class="row" *ngIf="displayChoose=='android'">
+  <app-android-work></app-android-work>
+</div>
