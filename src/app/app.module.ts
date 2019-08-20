@@ -12,6 +12,8 @@ import { PythonWorkComponent } from './work/python-work/python-work.component';
 import { AndroidWorkComponent } from './work/android-work/android-work.component';
 import { RecipeBookComponent } from './work/angular-work/recipe-book/recipe-book.component';
 import { WorkStoreService } from './work/work-store.service';
+import { ArtgogoComponent } from './work/android-work/artgogo/artgogo.component';
+import { SupplierInformationComponent } from './work/python-work/supplier-information/supplier-information.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { WorkStoreService } from './work/work-store.service';
     AngularWorkComponent,
     PythonWorkComponent,
     AndroidWorkComponent,
-    RecipeBookComponent
+    RecipeBookComponent,
+    ArtgogoComponent,
+    SupplierInformationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,19 @@
 <div class="row">
+    <div class="col-md-4 putMiddle">
+        <hr>
+        <div class="pictureBox">
+          <img src="../../../assets/artgogo_topic_2.jpg" class="topicPicture putMiddle clickable"
+            [routerLink]="['artgogo']">
+        </div>
+        <h4 class="workTopic" [routerLink]="['artgogo']">ArtGoGo!!</h4>
+        <div class="descriptionPlace">
+          <p class="putLeft">This is a guide of the public art in National Tsing Hua University.
+          <br>
+          There is also a little game in it!</p>
+        </div>
+        <button class="btn btn-primary" [routerLink]="['artgogo']">Detail</button>
+      </div>
+      
   <div class="col-md-4 putMiddle">
     <hr>
     <div class="pictureBox">
@@ -10,21 +25,6 @@
         <p class="putLeft">This is a game that you need to find all the bomb.
             <br>
             One time wrong, You die!!!</p>
-    </div>
-    <button class="btn btn-primary" [routerLink]="['recipeBook']">Detail</button>
-  </div>
-
-  <div class="col-md-4 putMiddle">
-    <hr>
-    <div class="pictureBox">
-      <img src="../../../assets/artgogo_topic.jpg" class="topicPicture putMiddle clickable"
-        [routerLink]="['recipeBook']">
-    </div>
-    <h4 class="workTopic" [routerLink]="['recipeBook']">ArtGoGo!!</h4>
-    <div class="descriptionPlace">
-      <p class="putLeft">This is a guide of the public art in National Tsing Hua University.
-      <br>
-      There is also a little game in it!</p>
     </div>
     <button class="btn btn-primary" [routerLink]="['recipeBook']">Detail</button>
   </div>

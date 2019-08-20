@@ -1,0 +1,67 @@
+img.button{
+    cursor: pointer;
+}
+img.content{
+    max-width: 70vw;
+    border: 1px solid silver;
+}
+
+img.content2{
+    max-width: 32vw;
+    border: 1px solid silver;
+    display: inline;
+}
+
+p.pt-3{
+    padding-top: 3vh;
+}
+
+.detailTopic{
+    margin-top: 3vh;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    color: rgb(14, 60, 105);
+    text-decoration: underline;
+    text-align: left
+}
+
+.appPicture{
+    max-height: 70vh;
+}
+
+.appPictureDescription{
+    height: 70vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.putMiddle{
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.putLeft{
+    text-align:left;
+}
+.putLeft{
+    text-align:left;
+}
+
+.secondTopic{
+    margin-top: 3vh;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    color: rgb(48, 78, 107);
+    text-align: left
+}
+
+.esystemPicture{
+    max-height: 28vh;
+}
+.esystemPictureDescription{
+    height: 28vh;
+    display: table-cell;
+    vertical-align: middle;
+}
