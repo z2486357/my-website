@@ -1,0 +1,130 @@
+<img src="../../../../assets/back_button.jpg" class="button" style="height: 10vh" [routerLink]="['../']">
+<h4 class="detailTopic">Board Reader</h4><br>
+<p>
+  This are two main part about this application.
+  <br>
+  1. Get the position of the 100 points on the board
+  <br>
+  2. Use the position to get the data you want in txt file and output to excel file.
+</p>
+<div class="row">
+  <div class="col-md-5">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/board_1.JPG" class="boardPicture">
+    </div>
+    <p style="text-align: center">Input</p>
+  </div>
+  <div class="col-md-2">
+    <div class="putMiddle" style="width: 3vw ; height:32vh ; padding-left: 1vw">
+      <img src="../../../../assets/arrow_right.jpg" style="max-width: 7vw">
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/board_8.JPG" class="boardPicture">
+    </div>
+    <p style="text-align: center">Output</p>
+  </div>
+</div>
+<hr>
+<p class="secondTopic">Part 1. Get the 100 positions</p>
+<div class="row">
+  <div class="col-md-5">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/board_1.JPG" class="boardPicture">
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="putMiddle" style="width: 3vw ; height:32vh ; padding-left: 1vw">
+      <img src="../../../../assets/arrow_right.jpg" style="max-width: 7vw">
+      <p>Clean the background</p>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/board_2.JPG" class="boardPicture">
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-7">
+    <p style="margin: 2vw ; padding: 1vh ; border:1px solid grey">You can get the result after Calculation.
+      <br>
+      However, the application will output a picture for you to verify if the point is correct.
+      <br>
+      The red area is the area that application determine it as a point
+      and the black point in the center of red area is the center of the area.
+    </p>
+  </div>
+  <div class="col-md-5 putMiddle">
+    <p style="display: inline">calculate</p>
+    <img src="../../../../assets/arrow_down.jpg" style="max-height: 7vw ; margin: 2vw">
+    <p style="display: inline">Get Result</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-5">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/board_4.JPG" class="boardPicture">
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="putMiddle" style="width: 3vw ; height:32vh ; padding-left: 1vw">
+      <p>Zoom in for detail</p>
+      <img src="../../../../assets/arrow_left.jpg" style="max-width: 7vw">
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/board_3.JPG" class="boardPicture">
+    </div>
+  </div>
+</div>
+<hr>
+<p class="secondTopic">Part 2. Get the data</p>
+<p>
+  The data recorded in the txt file include the position x and position y of the picture 
+  and the x,y,z value of the point in the real world.
+  <br>
+  After getting the position data from part 1, the application will go into the txt file 
+  to find the x,y,z value. If there is no value of the point, it will find the nearest point 
+  which include a value.
+</p>
+<div class="row">
+  <div class="col-md-4 putMiddle">
+    <div class="boardFilePictureBox ">
+      <img src="../../../../assets/board_5.JPG" class="boardFilePicture">
+    </div>
+    <p>Data Start</p>
+  </div>
+  <div class="col-md-4 putMiddle">
+    <div class="boardFilePictureBox ">
+      <img src="../../../../assets/board_6.JPG" class="boardFilePicture">
+    </div>
+    <p>Data End</p>
+  </div>
+  <div class="col-md-4 putMiddle">
+    <div class="boardFilePictureBox ">
+      <img src="../../../../assets/board_7.JPG" class="boardFilePicture">
+    </div>
+    <p>Data with value</p>
+  </div>
+</div>
+<hr>
+<p class="secondTopic">Part 3. Output the result</p>
+<p>
+  After getting the value, th application will output an excel file that include 
+  the origin 100 points, the 100 points where the value is got and the x,y,z value.
+</p>
+<div class="row">
+  <div class="col-md-12 putMiddle">
+      <img src="../../../../assets/board_8.JPG">    
+  </div>
+</div>
+<hr>
+<p style="display: inline">If you are interested, please visit </p>
+<p style="display: inline"><a
+    href="https://github.com/z2486357/Python_readboard">https://github.com/z2486357/Python_readboard
+  </a></p>
+<p style="display: inline">for the code.</p><br> <br>
+<img src="../../../../assets/back_button.jpg" class="button" style="height: 10vh" [routerLink]="['../']">

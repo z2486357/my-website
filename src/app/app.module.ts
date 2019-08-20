@@ -14,6 +14,8 @@ import { RecipeBookComponent } from './work/angular-work/recipe-book/recipe-book
 import { WorkStoreService } from './work/work-store.service';
 import { ArtgogoComponent } from './work/android-work/artgogo/artgogo.component';
 import { SupplierInformationComponent } from './work/python-work/supplier-information/supplier-information.component';
+import { BoardReaderComponent } from './work/python-work/board-reader/board-reader.component';
+import { BoxCounterComponent } from './work/python-work/box-counter/box-counter.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { SupplierInformationComponent } from './work/python-work/supplier-inform
     AndroidWorkComponent,
     RecipeBookComponent,
     ArtgogoComponent,
-    SupplierInformationComponent
+    SupplierInformationComponent,
+    BoardReaderComponent,
+    BoxCounterComponent
   ],
   imports: [
     BrowserModule,

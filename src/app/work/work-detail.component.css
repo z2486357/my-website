@@ -44,8 +44,8 @@ p.pt-3{
 .putLeft{
     text-align:left;
 }
-.putLeft{
-    text-align:left;
+.putRight{
+    text-align:right;
 }
 
 .secondTopic{
@@ -62,6 +62,44 @@ p.pt-3{
 }
 .esystemPictureDescription{
     height: 28vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.boardPictureBox{
+    height: 32vh;
+    width: 26vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+.boardPicture{
+    max-width: 26vw;
+    max-height: 32vh;
+
+}
+.boardFilePictureBox{
+    height:65vh;
+    width: 25vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.boardFilePicture{
+    max-height: 65vh;
+}
+
+
+.boxPictureBox1{
+    height:30vh;
+    width: 18vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.boxPictureBox2{
+    height:35vh;
+    width: 50vw;
     display: table-cell;
     vertical-align: middle;
 }
