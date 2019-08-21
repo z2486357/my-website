@@ -16,6 +16,9 @@ import { ArtgogoComponent } from './work/android-work/artgogo/artgogo.component'
 import { SupplierInformationComponent } from './work/python-work/supplier-information/supplier-information.component';
 import { BoardReaderComponent } from './work/python-work/board-reader/board-reader.component';
 import { BoxCounterComponent } from './work/python-work/box-counter/box-counter.component';
+import { WebBlockComponent } from './work/python-work/web-block/web-block.component';
+import { InteractiveDictionaryComponent } from './work/python-work/interactive-dictionary/interactive-dictionary.component';
+import { WebMapComponent } from './work/python-work/web-map/web-map.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { BoxCounterComponent } from './work/python-work/box-counter/box-counter.
     ArtgogoComponent,
     SupplierInformationComponent,
     BoardReaderComponent,
-    BoxCounterComponent
+    BoxCounterComponent,
+    WebBlockComponent,
+    InteractiveDictionaryComponent,
+    WebMapComponent
   ],
   imports: [
     BrowserModule,

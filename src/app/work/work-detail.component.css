@@ -103,3 +103,17 @@ p.pt-3{
     display: table-cell;
     vertical-align: middle;
 }
+
+.dictionaryPicture{
+    max-height: 35vh;
+}
+.dictionaryPictureDescription{
+    height: 35vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.webmapPicture{
+    max-width: 70vw;
+    border: 1px solid
+}
