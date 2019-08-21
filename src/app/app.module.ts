@@ -21,6 +21,8 @@ import { InteractiveDictionaryComponent } from './work/python-work/interactive-d
 import { WebMapComponent } from './work/python-work/web-map/web-map.component';
 import { BombComponent } from './work/android-work/bomb/bomb.component';
 import { SnakeComponent } from './work/android-work/snake/snake.component';
+import { AvoidComponent } from './work/android-work/avoid/avoid.component';
+import { CalculatorComponent } from './work/android-work/calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { SnakeComponent } from './work/android-work/snake/snake.component';
     InteractiveDictionaryComponent,
     WebMapComponent,
     BombComponent,
-    SnakeComponent
+    SnakeComponent,
+    AvoidComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,

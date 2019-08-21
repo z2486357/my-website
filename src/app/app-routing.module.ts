@@ -14,6 +14,8 @@ import { InteractiveDictionaryComponent } from './work/python-work/interactive-d
 import { WebMapComponent } from './work/python-work/web-map/web-map.component';
 import { BombComponent } from './work/android-work/bomb/bomb.component';
 import { SnakeComponent } from './work/android-work/snake/snake.component';
+import { AvoidComponent } from './work/android-work/avoid/avoid.component';
+import { CalculatorComponent } from './work/android-work/calculator/calculator.component';
 
 const appRoutes:Routes=[
     {path:'',redirectTo:'/home',pathMatch:'full'},
@@ -34,6 +36,8 @@ const appRoutes:Routes=[
     {path:'work/artgogo',component:ArtgogoComponent},
     {path:'work/bomb',component:BombComponent},
     {path:'work/snake',component:SnakeComponent},
+    {path:'work/avoid',component:AvoidComponent},
+    {path:'work/calculator',component:CalculatorComponent},
 
 
     {path:'contact',component:ContactComponent},
