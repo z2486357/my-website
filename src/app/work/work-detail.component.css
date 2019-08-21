@@ -117,3 +117,9 @@ p.pt-3{
     max-width: 70vw;
     border: 1px solid
 }
+
+.bombDescription{
+    height: 5vh;
+    display: table-cell;
+    vertical-align: bottom;
+}

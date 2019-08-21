@@ -12,6 +12,8 @@ import { BoxCounterComponent } from './work/python-work/box-counter/box-counter.
 import { WebBlockComponent } from './work/python-work/web-block/web-block.component';
 import { InteractiveDictionaryComponent } from './work/python-work/interactive-dictionary/interactive-dictionary.component';
 import { WebMapComponent } from './work/python-work/web-map/web-map.component';
+import { BombComponent } from './work/android-work/bomb/bomb.component';
+import { SnakeComponent } from './work/android-work/snake/snake.component';
 
 const appRoutes:Routes=[
     {path:'',redirectTo:'/home',pathMatch:'full'},
@@ -30,6 +32,10 @@ const appRoutes:Routes=[
     {path:'work/map',component:WebMapComponent},
     // android
     {path:'work/artgogo',component:ArtgogoComponent},
+    {path:'work/bomb',component:BombComponent},
+    {path:'work/snake',component:SnakeComponent},
+
+
     {path:'contact',component:ContactComponent},
     { path: '**', redirectTo:'/home' ,pathMatch:'full'}
 ]
