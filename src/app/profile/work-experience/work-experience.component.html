@@ -1,0 +1,49 @@
+<div *ngFor="let item of experience">
+  <p class="workTopic">{{item.topic}}</p>
+  <p class="workSecondTopic">{{item.secondTopic}}</p>
+  <p class="workPeriod">{{item.period}}</p>
+  <br>
+  <div *ngFor="let description of item.description">
+    <p class="workDescription">{{description}}</p>
+    <br>
+  </div>
+  <div *ngIf="item.secondTopic=='Liteon'">
+    <p class="workDescription">
+      <br>
+      For the detail of the system, please visit
+    </p>
+    <a class="workDescription clickable" [routerLink]="['/work/supplierInformation']">Supplier Information e-System</a>
+    <p class="workDescription"> at my work</p>
+  </div>
+  <br *ngIf="item.topic=='Research Assitant'">
+  <div *ngIf="item.topic=='Research Assitant'" style="padding: 1.5vh; border: 1px solid #DDD ;border-radius:10px">
+    <p style="font-weight: bold ; margin-bottom: 0">Industry-Academy Cooperation Project</p>
+    <hr style="margin: 0">
+    <p style="color: cadetblue ; text-decoration: underline;display: inline; font-weight: bold">
+      Identifying potential work risk using safety climate technique
+      based on the organizational ergonomics approach
+    </p>
+    <br>
+    <p style="display: inline;">07.2015 – 08.2017</p>
+    <br>
+    <p style="display: inline;">- Collect the data from the company and analyze the potential
+      risk to reduce the industrial accident
+    </p>
+    <br>
+    <p style="display: inline;">- Use C# to build a system to collect the data of subjects</p>
+    <br>
+    <p style="color: cadetblue ; text-decoration: underline;display: inline; font-weight: bold">
+      Website development
+    </p>
+    <br>
+    <p style="display: inline;">10.2015 – 06.2017</p>
+    <br>
+    <p style="display: inline;">- Use HTML, CSS and PHP to build a website</p>
+    <br>
+    <p style="display: inline;">- </p>
+    <a href="http://www.ulawyer.com.tw/ulawyer/zhitong/index.jsp">
+      http://www.ulawyer.com.tw/ulawyer/zhitong/index.jsp
+    </a>
+  </div>
+  <hr>
+</div>

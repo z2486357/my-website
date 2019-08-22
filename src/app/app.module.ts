@@ -27,6 +27,9 @@ import { TimelineComponent } from './profile/timeline/timeline.component';
 import { LeftPartComponent } from './profile/left-part/left-part.component';
 import { RightPartComponent } from './profile/right-part/right-part.component';
 import { ProfileStoreService } from './profile/profile-store.service';
+import { PopupComponent } from './profile/popup/popup.component';
+import { WorkExperienceComponent } from './profile/work-experience/work-experience.component';
+import { EducationComponent } from './profile/education/education.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +55,10 @@ import { ProfileStoreService } from './profile/profile-store.service';
     CalculatorComponent,
     TimelineComponent,
     LeftPartComponent,
-    RightPartComponent
+    RightPartComponent,
+    PopupComponent,
+    WorkExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

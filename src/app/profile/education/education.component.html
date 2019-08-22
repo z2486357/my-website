@@ -1,0 +1,27 @@
+<div *ngFor="let item of experience">
+    <p class="workTopic">{{item.topic}}</p>
+    <p class="workSecondTopic">{{item.secondTopic}}</p>
+    <p class="workPeriod">{{item.period}}</p>
+    <br>
+    <div *ngFor="let description of item.description">
+      <p class="workDescription">{{description}}</p>
+      <br>
+    </div>
+    <hr>
+</div>
+<p class="workDescription">
+    National Tsing Hua University is on of the best unversity in Taiwan. <br>
+    Some of the departments in National Tsing Hua University are the top 1 in Taiwan.
+  </p>
+  <br>
+  <img src="../../../assets/NTHU_2.JPG" style="max-width: 40vw">
+  <img src="../../../assets/NTHU_1.jpg" style="max-width: 40vw">
+  <br>
+  <p style="display: inline">If you are interested, please visit </p>
+  <p style="display: inline"><a href="https://www.nthu.edu.tw/">https://www.nthu.edu.tw/
+    </a></p>
+  <br>
+  <p style="display: inline">For English website, please visit </p>
+  <p style="display: inline"><a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">
+      http://nthu-en.web.nthu.edu.tw/bin/home.php
+    </a></p>

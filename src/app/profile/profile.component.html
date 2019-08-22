@@ -1,4 +1,22 @@
 <div class="row">
+  <div class="col-md-4 putMiddle">
+    <button *ngIf="profileChoose!='timeline'" class="btn-lg btn-default profileTitle"
+      (click)="choose('timeline')">TimeLine</button>
+    <button *ngIf="profileChoose=='timeline'" class="btn-lg btn-default profileTitle profileChoose">TimeLine</button>
+  </div>
+  <div class="col-md-4 putMiddle">
+    <button *ngIf="profileChoose!='work'" class="btn-lg btn-default profileTitle" (click)="choose('work')">Work
+      Experience</button>
+    <button *ngIf="profileChoose=='work'" class="btn-lg btn-default profileTitle profileChoose">Work Experience</button>
+  </div>
+  <div class="col-md-4 putMiddle">
+    <button *ngIf="profileChoose!='education'" class="btn-lg btn-default profileTitle"
+      (click)="choose('education')">Education</button>
+    <button *ngIf="profileChoose=='education'" class="btn-lg btn-default profileTitle profileChoose">Education</button>
+  </div>
+</div>
+<hr>
+<div class="row" *ngIf="profileChoose=='timeline'">
   <div class="col-md-5">
     <app-left-part></app-left-part>
   </div>
@@ -8,4 +26,10 @@
   <div class="col-md-5">
     <app-right-part></app-right-part>
   </div>
+</div>
+<div class="row" *ngIf="profileChoose=='work'">
+  <app-work-experience></app-work-experience>
+</div>
+<div class="row" *ngIf="profileChoose=='education'">
+  <app-education></app-education>
 </div>

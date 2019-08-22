@@ -1,0 +1,53 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+}
+
+.alert-box{
+    position: fixed;
+    top: 10vh;
+    left: 20vw;
+    width: 60vw;
+    max-height: 75vh;
+    padding: 16px;
+    z-index: 100;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+
+.alert-box-actions{
+    text-align: right;
+}
+
+.topic{
+    font-size: 4vh;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.secondTopic{
+    margin-bottom: 0;
+}
+
+.period{
+    margin-bottom: 0;
+}
+
+.descriptionBox{
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+
+.description{
+    display: inline;
+}
+
+.clickable{
+    cursor: pointer;
+}

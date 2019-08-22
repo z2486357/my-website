@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProfileStoreService } from './profile-store.service';
 
 @Component({
   selector: 'app-profile',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  get profileChoose(){return this.profilestore.profileChoose;}
+  
+  constructor(private profilestore:ProfileStoreService) { }
 
   ngOnInit() {
   }
 
+  choose(choose:string){
+    this.profilestore.profileChoose=choose;
+  }
 }

@@ -26,12 +26,15 @@
           <p class="topic" style="font-size:2.8vh">{{ta.topic}}</p>
           <hr style="margin: 0">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
               <p class="secondTopic">{{ta.secondTopic}}</p>
               <p class="period">{{ta.period}}</p>
             </div>
-            <div class="col-md-4" style="margin-top: 1vh ; text-align: center">
-              <button class="btn-sm btn-success">Detail</button>
+            <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
+              <button class="btn-xs btn-success" (click)="detailShow('ta')">Detail</button>
+            </div>
+            <div *ngIf="ta.detail">
+              <app-popup [detailShow]="ta" (close)="detailClose('ta')"></app-popup>
             </div>
           </div>
         </div>
@@ -46,12 +49,15 @@
           <p class="topic" style="font-size:2.8vh">{{ms.topic}}</p>
           <hr style="margin: 0">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
               <p class="secondTopic">{{ms.secondTopic}}</p>
               <p class="period">{{ms.period}}</p>
             </div>
-            <div class="col-md-4" style="margin-top: 1vh ; text-align: center">
-              <button class="btn-sm btn-success">Detail</button>
+            <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
+              <button class="btn-xs btn-success" (click)="detailShow('ms')">Detail</button>
+            </div>
+            <div *ngIf="ms.detail">
+              <app-popup [detailShow]="ms" (close)="detailClose('ms')"></app-popup>
             </div>
           </div>
         </div>
@@ -71,12 +77,15 @@
       <p class="topic" style="font-size:2.8vh">{{bs.topic}}</p>
       <hr style="margin: 0">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-9">
           <p class="secondTopic">{{bs.secondTopic}}</p>
           <p class="period">{{bs.period}}</p>
         </div>
-        <div class="col-md-4" style="margin-top: 1vh ; margin-left: 0">
-          <button class="btn-sm btn-success">Detail</button>
+        <div class="col-md-3" style="margin-top: 1vh ; margin-left: 0">
+          <button class="btn-xs btn-success" (click)="detailShow('bs')">Detail</button>
+        </div>
+        <div *ngIf="bs.detail">
+          <app-popup [detailShow]="bs" (close)="detailClose('bs')"></app-popup>
         </div>
       </div>
     </div>
