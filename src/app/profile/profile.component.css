@@ -13,6 +13,7 @@
 
 .experienceBox{
     border-style: outset;
+    border-radius: 10px;
 }
 
 
@@ -54,20 +55,21 @@
     color: darkcyan;
     text-decoration: underline;
     text-align: left;
-    margin-left: 0.7vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
     margin-bottom: 0
 }
 
 .secondTopic{
     font-size: 2vh;
     margin: 0vh;
-    margin-left: 0.7vw;
+    margin-left: 1vw;
 }
 
 .period{
     font-size: 2vh;
     margin: 0vh;
-    margin-left: 0.7vw;
+    margin-left: 1vw;
 }
 
 .profileChoose{
@@ -95,4 +97,17 @@ button.profileTitle{
 
 .workDescription{
     display: inline;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.detailButton{
+    margin: 0; 
+    background-color: #AAA;
+    color: white;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 3px;
 }

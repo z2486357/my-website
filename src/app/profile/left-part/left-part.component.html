@@ -4,39 +4,46 @@
       <p class="topic">{{enfotech.topic}}</p>
       <hr style="margin: 0">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
           <p class="secondTopic">{{enfotech.secondTopic}}</p>
           <p class="period">{{enfotech.period}}</p>
         </div>
-        <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
-          <button class="btn-xs btn-success" (click)="detailShow('enfotech')">Detail</button>
-        </div>
-        <div *ngIf="enfotech.detail">
-          <app-popup [detailShow]="enfotech" (close)="detailClose('enfotech')"></app-popup>
-        </div>
       </div>
-
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 putMiddle clickable" style="text-align: center">
+          <p class="detailButton" (click)="detailShow('enfotech')">Detail</p>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <div *ngIf="enfotech.detail">
+        <app-popup [detailShow]="enfotech" (close)="detailClose('enfotech')"></app-popup>
+      </div>
     </div>
   </div>
   <div class="col-md-3 bottomline" style="height: 5vh"></div>
 </div>
 <div class="row" style="height: 26vh">
   <div class="col-md-9" style="padding: 0">
-    <div class="experienceBox" style="margin-top: 7vh">
+    <div class="experienceBox" style="margin-top: 5vh">
       <p class="topic" style="font-size:2.7vh">{{military.topic}}</p>
       <hr style="margin: 0">
 
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
           <p class="secondTopic">{{military.secondTopic}}</p>
           <p class="period">{{military.period}}</p>
         </div>
-        <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
-          <button class="btn-xs btn-success" (click)="detailShow('military')">Detail</button>
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 putMiddle clickable" style="text-align: center">
+          <p class="detailButton" (click)="detailShow('military')">Detail</p>
         </div>
-        <div *ngIf="military.detail">
-          <app-popup [detailShow]="military" (close)="detailClose('military')"></app-popup>
-        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <div *ngIf="military.detail">
+        <app-popup [detailShow]="military" (close)="detailClose('military')"></app-popup>
       </div>
     </div>
   </div>
@@ -49,40 +56,48 @@
   <div class="col-md-9" style="padding: 0">
     <div class="row" style="margin: 0">
       <div class="col-md-12" style="padding: 0">
-        <div class="experienceBox" style="margin-top: 7vh">
+        <div class="experienceBox" style="margin-top: 4vh">
           <p class="topic">{{liteon.topic}}</p>
           <hr style="margin: 0">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-12">
               <p class="secondTopic">{{liteon.secondTopic}}</p>
               <p class="period">{{liteon.period}}</p>
             </div>
-            <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
-              <button class="btn-xs btn-success" (click)="detailShow('liteon')">Detail</button>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 putMiddle clickable" style="text-align: center">
+              <p class="detailButton" (click)="detailShow('liteon')">Detail</p>
             </div>
-            <div *ngIf="liteon.detail">
-              <app-popup [detailShow]="liteon" (close)="detailClose('liteon')"></app-popup>
-            </div>
+            <div class="col-md-4"></div>
+          </div>
+          <div *ngIf="liteon.detail">
+            <app-popup [detailShow]="liteon" (close)="detailClose('liteon')"></app-popup>
           </div>
         </div>
       </div>
     </div>
     <div class="row" style="margin: 0">
       <div class="col-md-12" style="padding: 0">
-        <div class="experienceBox" style="margin-top: 14vh">
+        <div class="experienceBox" style="margin-top: 8vh">
           <p class="topic">{{ra.topic}}</p>
           <hr style="margin: 0">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-12">
               <p class="secondTopic">{{ra.secondTopic}}</p>
               <p class="period">{{ra.period}}</p>
             </div>
-            <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
-              <button class="btn-xs btn-success" (click)="detailShow('ra')">Detail</button>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 putMiddle clickable" style="text-align: center">
+              <p class="detailButton" (click)="detailShow('ra')">Detail</p>
             </div>
-            <div *ngIf="ra.detail">
-              <app-popup [detailShow]="ra" (close)="detailClose('ra')"></app-popup>
-            </div>
+            <div class="col-md-4"></div>
+          </div>
+          <div *ngIf="ra.detail">
+            <app-popup [detailShow]="ra" (close)="detailClose('ra')"></app-popup>
           </div>
         </div>
       </div>
@@ -107,20 +122,24 @@
 </div>
 <div class="row">
   <div class="col-md-9" style="padding: 0">
-    <div class="experienceBox" style="margin-top: 20vh">
+    <div class="experienceBox" style="margin-top: 17vh">
       <p class="topic">{{manzai.topic}}</p>
       <hr style="margin: 0">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
           <p class="secondTopic">{{manzai.secondTopic}}</p>
           <p class="period">{{manzai.period}}</p>
         </div>
-        <div class="col-md-3" style="margin-top: 1vh ; text-align: center">
-          <button class="btn-xs btn-success" (click)="detailShow('manzai')">Detail</button>
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 putMiddle clickable" style="text-align: center">
+          <p class="detailButton" (click)="detailShow('manzai')">Detail</p>
         </div>
-        <div *ngIf="manzai.detail">
-          <app-popup [detailShow]="manzai" (close)="detailClose('manzai')"></app-popup>
-        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <div *ngIf="manzai.detail">
+        <app-popup [detailShow]="manzai" (close)="detailClose('manzai')"></app-popup>
       </div>
     </div>
   </div>
