@@ -1,0 +1,73 @@
+.putMiddle{
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.putLeft{
+    text-align:left;
+}
+.putRight{
+    text-align:right;
+}
+
+
+.experienceBox{
+    border-style: outset;
+    height: 12vh;
+}
+
+
+.year{
+    height: 6vh;
+    font-size: 4vh;
+    color: #AAA;
+    border: 1px solid #777;
+    margin-bottom: 0;
+}
+
+.rightLineBox{
+    height: 5vh;
+    border-right: 1px solid #777;
+}
+
+.leftLineBox{
+    height: 5vh;
+    border-left: 1px solid #777;
+}
+
+.bottomline{
+    border-bottom: 1px solid #777;
+}
+.topline{
+    border-top: 1px solid #777;
+}
+.leftline{
+    border-left: 1px solid #777;
+}
+.rightline{
+    border-right: 1px solid #777;
+}
+
+.topic{
+    font-size: 3vh;
+    cursor: pointer;
+    font-weight: bold;
+    color: darkcyan;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 1vw;
+    margin-bottom: 0
+}
+
+.seconTopic{
+    font-size: 2vh;
+    text-align: left;
+    margin: 0vh;
+    margin-left: 1vw;
+}
+
+.period{
+    font-size: 2vh;
+    margin: 0vh;
+    margin-left: 1vw;
+}

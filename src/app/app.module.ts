@@ -23,6 +23,7 @@ import { BombComponent } from './work/android-work/bomb/bomb.component';
 import { SnakeComponent } from './work/android-work/snake/snake.component';
 import { AvoidComponent } from './work/android-work/avoid/avoid.component';
 import { CalculatorComponent } from './work/android-work/calculator/calculator.component';
+import { TimelineComponent } from './profile/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { CalculatorComponent } from './work/android-work/calculator/calculator.c
     BombComponent,
     SnakeComponent,
     AvoidComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
