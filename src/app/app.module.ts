@@ -24,6 +24,9 @@ import { SnakeComponent } from './work/android-work/snake/snake.component';
 import { AvoidComponent } from './work/android-work/avoid/avoid.component';
 import { CalculatorComponent } from './work/android-work/calculator/calculator.component';
 import { TimelineComponent } from './profile/timeline/timeline.component';
+import { LeftPartComponent } from './profile/left-part/left-part.component';
+import { RightPartComponent } from './profile/right-part/right-part.component';
+import { ProfileStoreService } from './profile/profile-store.service';
 
 @NgModule({
   declarations: [
@@ -47,13 +50,15 @@ import { TimelineComponent } from './profile/timeline/timeline.component';
     SnakeComponent,
     AvoidComponent,
     CalculatorComponent,
-    TimelineComponent
+    TimelineComponent,
+    LeftPartComponent,
+    RightPartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [WorkStoreService],
+  providers: [WorkStoreService,ProfileStoreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

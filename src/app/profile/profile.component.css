@@ -55,19 +55,19 @@
     color: darkcyan;
     text-decoration: underline;
     text-align: left;
-    margin-left: 1vw;
+    margin-left: 0.7vw;
     margin-bottom: 0
 }
 
-.seconTopic{
+.secondTopic{
     font-size: 2vh;
     text-align: left;
     margin: 0vh;
-    margin-left: 1vw;
+    margin-left: 0.7vw;
 }
 
 .period{
     font-size: 2vh;
     margin: 0vh;
-    margin-left: 1vw;
+    margin-left: 0.7vw;
 }
