@@ -21,31 +21,31 @@
     height: 6vh;
     font-size: 4vh;
     color: #AAA;
-    border: 1px solid #777;
+    border: 1px solid #DDD;
     margin-bottom: 0;
 }
 
 .rightLineBox{
     height: 5vh;
-    border-right: 1px solid #777;
+    border-right: 1px solid #DDD;
 }
 
 .leftLineBox{
     height: 5vh;
-    border-left: 1px solid #777;
+    border-left: 1px solid #DDD;
 }
 
 .bottomline{
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #DDD;
 }
 .topline{
-    border-top: 1px solid #777;
+    border-top: 1px solid #DDD;
 }
 .leftline{
-    border-left: 1px solid #777;
+    border-left: 1px solid #DDD;
 }
 .rightline{
-    border-right: 1px solid #777;
+    border-right: 1px solid #DDD;
 }
 
 .topic{

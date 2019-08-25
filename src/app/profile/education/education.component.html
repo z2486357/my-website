@@ -1,27 +1,57 @@
 <div *ngFor="let item of experience">
-    <p class="workTopic">{{item.topic}}</p>
-    <p class="workSecondTopic">{{item.secondTopic}}</p>
-    <p class="workPeriod">{{item.period}}</p>
+  <p class="workTopic">{{item.topic}}</p>
+  <p class="workSecondTopic">{{item.secondTopic}}</p>
+  <p class="workPeriod">{{item.period}}</p>
+  <br>
+  <div *ngFor="let description of item.description">
+    <p class="workDescription">{{description}}</p>
     <br>
-    <div *ngFor="let description of item.description">
-      <p class="workDescription">{{description}}</p>
-      <br>
-    </div>
-    <hr>
+  </div>
+  <hr>
 </div>
+<p class="workTopic">Research</p>
+<p class="workSecondTopic" style="font-weight: bold">Master's Thesis</p>
+<p class="workPeriod">08.2017</p>
+<p class="workDescription">Comparison of Two Methods for Accident Prediction
+  Based on the Safety Climate Approach: The steel Industry as an Example</p>
+<br>
+<br>
+<p class="workSecondTopic" style="font-weight: bold">Independent Study (Undergraduate)</p>
+<p class="workPeriod">12.2014</p>
+<p class="workDescription">A Case Study of the Production Record Information System
+  implementation for Aluminum Product Plant</p>
+<hr>
+<p class="workTopic">Conference Paper</p>
+<p class="workSecondTopic" style="font-weight: bold">IEEE IEEM 2017</p>
+<p class="workPeriod">2017</p>
+<p class="workDescription">Injury Prediction Based on Safety Climate Questionnaire Score 
+  using Artificial Neural Networks
+    </p>
+<br>
+<br>
+<p class="workSecondTopic" style="font-weight: bold">EST 2017</p>
+<p class="workPeriod">2017</p>
+<p class="workDescription">Correlation Analysis of Safety Climate and Occupational Accidents</p>
+<br>
+<br>
+<p class="workSecondTopic" style="font-weight: bold">ICP 2016</p>
+<p class="workPeriod">2016</p>
 <p class="workDescription">
-    National Tsing Hua University is on of the best unversity in Taiwan. <br>
-    Some of the departments in National Tsing Hua University are the top 1 in Taiwan.
-  </p>
-  <br>
-  <img src="../../../assets/NTHU_2.JPG" style="max-width: 40vw">
-  <img src="../../../assets/NTHU_1.jpg" style="max-width: 40vw">
-  <br>
-  <p style="display: inline">If you are interested, please visit </p>
-  <p style="display: inline"><a href="https://www.nthu.edu.tw/">https://www.nthu.edu.tw/
-    </a></p>
-  <br>
-  <p style="display: inline">For English website, please visit </p>
-  <p style="display: inline"><a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">
-      http://nthu-en.web.nthu.edu.tw/bin/home.php
-    </a></p>
+  A Cross-Cultural Study of Safety Climate: Foreign Labor in the Domestic Industry</p>
+<hr>
+<p class="workDescription">
+  National Tsing Hua University is on of the best unversity in Taiwan. <br>
+  Some of the departments in National Tsing Hua University are the top 1 in Taiwan.
+</p>
+<br>
+<img src="../../../assets/NTHU_2.JPG" style="max-width: 40vw">
+<img src="../../../assets/NTHU_1.jpg" style="max-width: 40vw">
+<br>
+<p style="display: inline">If you are interested, please visit </p>
+<p style="display: inline"><a href="https://www.nthu.edu.tw/">https://www.nthu.edu.tw/
+  </a></p>
+<br>
+<p style="display: inline">For English website, please visit </p>
+<p style="display: inline"><a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">
+    http://nthu-en.web.nthu.edu.tw/bin/home.php
+  </a></p>
