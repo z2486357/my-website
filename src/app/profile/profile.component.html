@@ -17,15 +17,7 @@
 </div>
 <hr>
 <div class="row" *ngIf="profileChoose=='timeline'">
-  <div class="col-md-5">
-    <app-left-part></app-left-part>
-  </div>
-  <div class="col-md-2 putMiddle">
-    <app-timeline></app-timeline>
-  </div>
-  <div class="col-md-5">
-    <app-right-part></app-right-part>
-  </div>
+  <app-timeline></app-timeline>
 </div>
 <div class="row" *ngIf="profileChoose=='work'">
   <app-work-experience></app-work-experience>

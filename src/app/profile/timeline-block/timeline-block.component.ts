@@ -1,17 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ProfileStoreService } from '../profile-store.service';
 
 @Component({
-  selector: 'app-left-part',
-  templateUrl: './left-part.component.html',
+  selector: 'app-timeline-block',
+  templateUrl: './timeline-block.component.html',
   styleUrls: ['../profile.component.css']
 })
-export class LeftPartComponent implements OnInit {
-  get enfotech(){return this.profilestore.experience.enfotech;}
-  get military(){return this.profilestore.experience.military;}
-  get liteon(){return this.profilestore.experience.liteon;}
-  get ra(){return this.profilestore.experience.ra;}
-  get manzai(){return this.profilestore.experience.manzai;}
+export class TimelineBlockComponent implements OnInit {
+  @Input() inputExperience:any;
 
   constructor(private profilestore:ProfileStoreService) { }
 
@@ -34,7 +30,15 @@ export class LeftPartComponent implements OnInit {
     if(detail=='manzai'){
       this.profilestore.experience.manzai.detail=true;
     }
-    console.log('haha')
+    if(detail=='ta'){
+      this.profilestore.experience.ta.detail=true;
+    }
+    if(detail=='ms'){
+      this.profilestore.experience.ms.detail=true;
+    }
+    if(detail=='bs'){
+      this.profilestore.experience.bs.detail=true;
+    }
   }
 
   detailClose(detailShow:string){
@@ -52,6 +56,15 @@ export class LeftPartComponent implements OnInit {
     }
     if(detailShow=='manzai'){
       this.profilestore.experience.manzai.detail=false;
+    }
+    if(detailShow=='ta'){
+      this.profilestore.experience.ta.detail=false;
+    }
+    if(detailShow=='ms'){
+      this.profilestore.experience.ms.detail=false;
+    }
+    if(detailShow=='bs'){
+      this.profilestore.experience.bs.detail=false;
     }
   }
 }

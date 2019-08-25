@@ -6,6 +6,7 @@ export class ProfileStoreService {
 
     experience={
         enfotech:{
+            name:"enfotech",
             topic:"Programmer Analyst",
             secondTopic:"Enfotech",
             period:"04.2019 - 07.2019",
@@ -16,6 +17,7 @@ export class ProfileStoreService {
             "- Use asp.net and C# to maintain systems"],
         },
         military:{
+            name:"military",
             topic:"Alternative Military Service",
             secondTopic:"Chiayi City Government",
             period:"08.2017 - 08.2018",
@@ -26,6 +28,7 @@ export class ProfileStoreService {
             +"you can finish your duty by serving public."],
         },
         liteon:{
+            name:"liteon",
             topic:"Intern",
             secondTopic:"Liteon",
             period:"11.2015 - 08.2017",
@@ -41,6 +44,7 @@ export class ProfileStoreService {
             "- Use Artificial Neural Network for the prediction"],
         },
         ra:{
+            name:"ra",
             topic:"Research Assitant",
             secondTopic:"National Tsing Hua University",
             period:"07.2015 - 08.2017",
@@ -52,6 +56,7 @@ export class ProfileStoreService {
             "- Troubleshoot the problem of the equipment"],
         },
         manzai:{
+            name:"manzai",
             topic:"Summer Intern",
             secondTopic:"Manzai Industry",
             period:"07.2014 - 08.2014",
@@ -63,6 +68,7 @@ export class ProfileStoreService {
             "to accomplish real time manufacturing control and product tracing"],
         },
         ta:{
+            name:"ta",
             topic:"Teaching Assistant",
             secondTopic:"National Tsing Hua University",
             period:"09.2016 - 01.2017",
@@ -71,6 +77,7 @@ export class ProfileStoreService {
             description:["- Teaching Assistant of the class Biomechanics"],
         },
         ms:{
+            name:"ms",
             topic:"Master's Degree",
             secondTopic:"National Tsing Hua University",
             period:"07.2015 - 08.2017",
@@ -80,6 +87,7 @@ export class ProfileStoreService {
             "- Focus on Ergonomics"],
         },
         bs:{
+            name:"bs",
             topic:"Bachelor's Degree",
             secondTopic:"National Tsing Hua University",
             period:"09.2011 - 06.2015",

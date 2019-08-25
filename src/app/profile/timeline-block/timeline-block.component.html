@@ -1,0 +1,21 @@
+<div class="experienceBox">
+    <p class="topic"  *ngIf="inputExperience.type=='work'">{{inputExperience.topic}}</p>
+    <p class="topic" style="color: #a76445"  *ngIf="inputExperience.type=='education'">{{inputExperience.topic}}</p>
+    <hr style="margin: 0">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="secondTopic">{{inputExperience.secondTopic}}</p>
+        <p class="period">{{inputExperience.period}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 putMiddle clickable" style="text-align: center">
+        <p class="detailButton" (click)="detailShow(inputExperience.name)">Detail</p>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <div *ngIf="inputExperience.detail">
+      <app-popup [detailShow]="inputExperience" (close)="detailClose(inputExperience.name)"></app-popup>
+    </div>
+  </div>

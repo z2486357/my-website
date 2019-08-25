@@ -24,12 +24,11 @@ import { SnakeComponent } from './work/android-work/snake/snake.component';
 import { AvoidComponent } from './work/android-work/avoid/avoid.component';
 import { CalculatorComponent } from './work/android-work/calculator/calculator.component';
 import { TimelineComponent } from './profile/timeline/timeline.component';
-import { LeftPartComponent } from './profile/left-part/left-part.component';
-import { RightPartComponent } from './profile/right-part/right-part.component';
 import { ProfileStoreService } from './profile/profile-store.service';
 import { PopupComponent } from './profile/popup/popup.component';
 import { WorkExperienceComponent } from './profile/work-experience/work-experience.component';
 import { EducationComponent } from './profile/education/education.component';
+import { TimelineBlockComponent } from './profile/timeline-block/timeline-block.component';
 
 @NgModule({
   declarations: [
@@ -54,11 +53,10 @@ import { EducationComponent } from './profile/education/education.component';
     AvoidComponent,
     CalculatorComponent,
     TimelineComponent,
-    LeftPartComponent,
-    RightPartComponent,
     PopupComponent,
     WorkExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    TimelineBlockComponent
   ],
   imports: [
     BrowserModule,
