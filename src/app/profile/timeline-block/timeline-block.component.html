@@ -1,9 +1,9 @@
 <div class="experienceBox">
-    <p class="topic"  *ngIf="inputExperience.type=='work'">{{inputExperience.topic}}</p>
-    <p class="topic" style="color: #a76445"  *ngIf="inputExperience.type=='education'">{{inputExperience.topic}}</p>
+    <p class="topic" style="text-align: center"  *ngIf="inputExperience.type=='work'">{{inputExperience.topic}}</p>
+    <p class="topic" style="text-align: center;color: #a76445"  *ngIf="inputExperience.type=='education'">{{inputExperience.topic}}</p>
     <hr style="margin: 0">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 putMiddle">
         <p class="secondTopic">{{inputExperience.secondTopic}}</p>
         <p class="period">{{inputExperience.period}}</p>
       </div>
