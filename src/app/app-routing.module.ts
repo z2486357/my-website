@@ -16,7 +16,6 @@ import { BombComponent } from './work/android-work/bomb/bomb.component';
 import { SnakeComponent } from './work/android-work/snake/snake.component';
 import { AvoidComponent } from './work/android-work/avoid/avoid.component';
 import { CalculatorComponent } from './work/android-work/calculator/calculator.component';
-import { StarWarComponent } from './work/angular-work/star-war/star-war.component';
 import { PostsBoardComponent } from './work/angular-work/posts-board/posts-board.component';
 import { MovieInformationComponent } from './work/angular-work/movie-information/movie-information.component';
 
@@ -28,7 +27,6 @@ const appRoutes:Routes=[
     {path:'work',component:WorkComponent},
     // angular
     {path:'work/recipeBook',component:RecipeBookComponent},
-    {path:'work/starWar',component:StarWarComponent},
     {path:'work/postsBoard',component:PostsBoardComponent},
     {path:'work/movieInformation',component:MovieInformationComponent},
     // python
