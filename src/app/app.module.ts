@@ -29,6 +29,9 @@ import { PopupComponent } from './profile/popup/popup.component';
 import { WorkExperienceComponent } from './profile/work-experience/work-experience.component';
 import { EducationComponent } from './profile/education/education.component';
 import { TimelineBlockComponent } from './profile/timeline-block/timeline-block.component';
+import { PostsBoardComponent } from './work/angular-work/posts-board/posts-board.component';
+import { StarWarComponent } from './work/angular-work/star-war/star-war.component';
+import { MovieInformationComponent } from './work/angular-work/movie-information/movie-information.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +59,10 @@ import { TimelineBlockComponent } from './profile/timeline-block/timeline-block.
     PopupComponent,
     WorkExperienceComponent,
     EducationComponent,
-    TimelineBlockComponent
+    TimelineBlockComponent,
+    PostsBoardComponent,
+    StarWarComponent,
+    MovieInformationComponent
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,10 @@ p.pt-3{
     padding-top: 3vh;
 }
 
+p.mb-0{
+  margin-bottom: 0;
+}
+
 .detailTopic{
     margin-top: 3vh;
     font-weight: bold;
