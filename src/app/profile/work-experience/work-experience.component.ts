@@ -7,7 +7,8 @@ import { ProfileStoreService } from '../profile-store.service';
   styleUrls: ['../profile.component.css']
 })
 export class WorkExperienceComponent implements OnInit {
-
+  get ibm(){return this.profilestore.experience.ibm;}
+  get free(){return this.profilestore.experience.free;}
   get enfotech(){return this.profilestore.experience.enfotech;}
   get military(){return this.profilestore.experience.military;}
   get liteon(){return this.profilestore.experience.liteon;}
@@ -20,6 +21,8 @@ export class WorkExperienceComponent implements OnInit {
   constructor(private profilestore:ProfileStoreService) { }
 
   ngOnInit() {
+    this.experience.push(this.ibm);
+    this.experience.push(this.free);
     this.experience.push(this.enfotech);
     this.experience.push(this.military);
     this.experience.push(this.liteon);

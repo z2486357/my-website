@@ -7,6 +7,8 @@ import { ProfileStoreService } from '../profile-store.service';
   styleUrls: ['../profile.component.css']
 })
 export class TimelineComponent implements OnInit {
+  get ibm(){return this.profilestore.experience.ibm;}
+  get free(){return this.profilestore.experience.free;}
   get enfotech(){return this.profilestore.experience.enfotech;}
   get military(){return this.profilestore.experience.military;}
   get liteon(){return this.profilestore.experience.liteon;}

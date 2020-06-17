@@ -1,5 +1,10 @@
 <div class="row">
   <div class="col-md-12" style="text-align: center">
+    <img src="../../assets/home_0.jpg" class="homePicture" (click)="cvOpen()">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12" style="text-align: center">
     <img src="../../assets/home_1.jpg" class="homePicture" [routerLink]="['/profile']">
   </div>
 </div>
@@ -20,7 +25,9 @@
     <p style="display: inline"><a href="https://www.linkedin.com/in/yu-cheng-chang-26139b165/">
       https://www.linkedin.com/in/yu-cheng-chang-26139b165/
       </a></p>
-
   </div>
   <div class="col-md-2"></div>
+</div>
+<div *ngIf="cvpop">
+  <app-cvpopup (close)="cvClose()"></app-cvpopup>
 </div>

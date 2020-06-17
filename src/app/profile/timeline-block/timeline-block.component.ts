@@ -15,6 +15,12 @@ export class TimelineBlockComponent implements OnInit {
   }
 
   detailShow(detail:string){
+    if(detail=='ibm'){
+      this.profilestore.experience.ibm.detail=true;
+    }
+    if(detail=='free'){
+      this.profilestore.experience.free.detail=true;
+    }
     if(detail=='enfotech'){
       this.profilestore.experience.enfotech.detail=true;
     }
@@ -42,6 +48,12 @@ export class TimelineBlockComponent implements OnInit {
   }
 
   detailClose(detailShow:string){
+    if(detailShow=='ibm'){
+      this.profilestore.experience.ibm.detail=false;
+    }
+    if(detailShow=='free'){
+      this.profilestore.experience.free.detail=false;
+    }
     if(detailShow=='enfotech'){
       this.profilestore.experience.enfotech.detail=false;
     }

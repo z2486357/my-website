@@ -31,11 +31,13 @@ import { EducationComponent } from './profile/education/education.component';
 import { TimelineBlockComponent } from './profile/timeline-block/timeline-block.component';
 import { PostsBoardComponent } from './work/angular-work/posts-board/posts-board.component';
 import { MovieInformationComponent } from './work/angular-work/movie-information/movie-information.component';
+import { CvpopupComponent } from './home/cvpopup/cvpopup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    CvpopupComponent,
     ProfileComponent,
     WorkComponent,
     ContactComponent,

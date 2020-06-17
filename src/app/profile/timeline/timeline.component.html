@@ -1,5 +1,22 @@
 <div class="row">
   <div class="col-md-1">
+    <p class="year">2020</p>
+  </div>
+  <div class="col-md-11">
+    <hr style="border: 1px solid #AAA">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <div *ngIf="ibm">
+      <app-timeline-block [inputExperience]="ibm"></app-timeline-block>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-1">
     <p class="year">2019</p>
   </div>
   <div class="col-md-11">
@@ -11,6 +28,11 @@
   <div class="col-md-4">
     <div *ngIf="enfotech">
       <app-timeline-block [inputExperience]="enfotech"></app-timeline-block>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div *ngIf="free">
+      <app-timeline-block [inputExperience]="free"></app-timeline-block>
     </div>
   </div>
 </div>

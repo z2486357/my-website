@@ -1,6 +1,9 @@
 button.topic{
-    font-family: fantasy;
+    font-family: Arial, 'Times New Roman', Times;
     border:none;
+}
+.h1font{
+  font-family: fantasy , Arial, 'Times New Roman', Times;
 }
 .clickable{
     cursor: pointer;
