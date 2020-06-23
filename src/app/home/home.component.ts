@@ -7,18 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  cvpop=false;
+  cvpop = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  cvOpen(){
-    this.cvpop=true;
+  cvOpen() {
+    this.cvpop = true;
   }
-  cvClose(){
-    this.cvpop=false;
+  cvClose() {
+    this.cvpop = false;
   }
 
 }
