@@ -10,10 +10,15 @@
       <br>
     </div>
 
+    <div *ngIf="detailShow.secondTopic=='IBM'">
+      <img src="../../../assets/IBMLogo.png" style="max-width: 40vw">
+    </div>
+
+
     <div *ngIf="detailShow.secondTopic=='Liteon'">
     <p class="description">
         <br>
-        For the detail of the system, please visit 
+        For the detail of the system, please visit
       </p>
       <a class="description clickable" [routerLink]="['/work/supplierInformation']">Supplier Information e-System</a>
     <p class="description"> at my work</p>
@@ -47,13 +52,13 @@
       <br>
       <p style="display: inline;">- Use HTML, CSS and PHP to build a website</p>
       <br>
-      <p style="display: inline;">- </p>      
+      <p style="display: inline;">- </p>
       <a href="http://www.ulawyer.com.tw/ulawyer/zhitong/index.jsp">
         http://www.ulawyer.com.tw/ulawyer/zhitong/index.jsp
       </a>
     </div>
 
-    <br *ngIf="detailShow.secondTopic=='National Tsing Hua University'"> 
+    <br *ngIf="detailShow.secondTopic=='National Tsing Hua University'">
     <div *ngIf="detailShow.secondTopic=='National Tsing Hua University'">
     <p class="description">
         National Tsing Hua University is on of the best unversity in Taiwan. <br>
