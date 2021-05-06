@@ -1,16 +1,14 @@
 <div class="row">
-  <div class="col-md-12" style="text-align: center">
-    <img src="../../assets/home_0.jpg" class="homePicture" (click)="cvOpen()">
+  <div class="col-md-5 left">
+    <img src="../../assets/home_Resume.jpg" class="homeResume" (click)="cvOpen()">
   </div>
-</div>
-<div class="row">
-  <div class="col-md-12" style="text-align: center">
-    <img src="../../assets/home_1.jpg" class="homePicture" [routerLink]="['/profile']">
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12" style="text-align: center">
-    <img src="../../assets/home_2.jpg" class="homePicture" [routerLink]="['/work']">
+  <div class="col-md-7 right">
+    <div class="row">
+      <img src="../../assets/home_Profile.jpg" class="homePicture" [routerLink]="['/profile']">
+    </div>
+    <div class="row">
+      <img src="../../assets/home_Work.jpg" class="homePicture" [routerLink]="['/work']">
+    </div>
   </div>
 </div>
 <div class="row">
