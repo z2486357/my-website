@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ProfileStoreService {
-  profileChoose = "timeline";
+  profileChoose = "work";
 
   experience = {
     ibm: {
@@ -27,7 +27,7 @@ export class ProfileStoreService {
     },
     enfotech: {
       name: "enfotech",
-      topic: "Programmer Analyst",
+      topic: "Full-Stack Developer",
       secondTopic: "Enfotech",
       period: "04.2019 - 07.2019",
       type: "work",
