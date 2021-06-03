@@ -12,11 +12,11 @@
 .alert-box{
     position: fixed;
     /* display: grid; */
-    top: 10vh;
+    top: 100px;
     left: 50%;
     margin-left: -376px;
     width: 752px;
-    max-height: 75vh;
+    max-height: 75%;
     padding: 16px;
     z-index: 100;
     background: white;

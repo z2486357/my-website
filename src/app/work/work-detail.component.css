@@ -2,18 +2,18 @@ img.button{
     cursor: pointer;
 }
 img.content{
-    max-width: 70vw;
+    max-width: 100%;
     border: 1px solid silver;
 }
 
 img.content2{
-    max-width: 32vw;
+    max-width: 98%;
     border: 1px solid silver;
     display: inline;
 }
 
 p.pt-3{
-    padding-top: 3vh;
+    padding-top: 30px;
 }
 
 p.mb-0{
@@ -21,29 +21,35 @@ p.mb-0{
 }
 
 .detailTopic{
-    margin-top: 3vh;
+    margin-top: 30px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5vh;
+    font-size: 50px;
     color: rgb(14, 60, 105);
     text-decoration: underline;
     text-align: left
 }
 
 .appPicture{
-    max-height: 70vh;
+    max-height: 350px;
+    max-width: 50%;
 }
 
 .appPictureDescription{
-    height: 70vh;
-    display: table-cell;
-    vertical-align: middle;
+    max-height: 700px;
+    max-width: 50%;
+    margin:0 10px;
 }
 
 .putMiddle{
-    text-align:center;
-    display: table-cell;
-    vertical-align: middle;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.putLeft{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .putLeft{
     text-align:left;
@@ -53,77 +59,77 @@ p.mb-0{
 }
 
 .secondTopic{
-    margin-top: 3vh;
+    margin-top: 30px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4vh;
+    font-size: 40px;
     color: rgb(48, 78, 107);
     text-align: left
 }
 
 .esystemPicture{
-    max-height: 27vh;
+    max-height: 270px;
+    max-width: 95%;
 }
-.esystemPictureDescription{
-    height: 28vh;
-    display: table-cell;
-    vertical-align: middle;
+.picturePlusContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boardPictureBox{
-    height: 32vh;
-    width: 26vw;
-    display: table-cell;
-    vertical-align: middle;
+    height: 250px;
+    max-width: 100%;
 }
 .boardPicture{
-    max-width: 26vw;
-    max-height: 32vh;
-
+    max-width: 90%;
+    max-height: 250px;
+}
+.toRightArrow{
+    width: 80% ;
+    max-height:320px;
 }
 .boardFilePictureBox{
-    height:65vh;
-    width: 25vw;
-    display: table-cell;
-    vertical-align: middle;
+    height:400px;
+    max-width: 100%;
 }
 
 .boardFilePicture{
-    max-height: 65vh;
+    max-height: 650px;
+    max-width: 100%;
 }
 
 
 .boxPictureBox1{
-    height:30vh;
-    width: 18vw;
-    display: table-cell;
-    vertical-align: middle;
+    height:300px;
+    max-width: 100%;
 }
 
 
 .boxPictureBox2{
-    height:35vh;
-    width: 50vw;
-    display: table-cell;
-    vertical-align: middle;
+    height:250px;
+    max-width: 100%;
 }
-
+.dictionaryPictureBox{
+    height:250px;
+    max-width: 100%;
+}
 .dictionaryPicture{
-    max-height: 35vh;
+    max-height: 100%;
+    max-width: 100%;
 }
 .dictionaryPictureDescription{
-    height: 35vh;
-    display: table-cell;
-    vertical-align: middle;
+    height: 250px;
+    justify-content: flex-start;
 }
 
 .webmapPicture{
-    max-width: 70vw;
-    border: 1px solid
+    max-width: 75%;
+    border: 1px solid;
 }
 
 .bombDescription{
-    height: 5vh;
+    height: 50px;
     display: table-cell;
     vertical-align: bottom;
 }

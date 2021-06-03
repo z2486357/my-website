@@ -1,4 +1,4 @@
-<img src="../../../../assets/back_button.jpg" class="button" style="height: 10vh" [routerLink]="['../']">
+<img src="../../../../assets/back_button.jpg" class="button" style="height: 100px" [routerLink]="['../']">
 <h4 class="detailTopic">Board Reader</h4><br>
 <p>
   This are two main part about this application.
@@ -15,8 +15,8 @@
     <p style="text-align: center">Input</p>
   </div>
   <div class="col-md-2">
-    <div class="putMiddle" style="width: 3vw ; height:32vh ; padding-left: 1vw">
-      <img src="../../../../assets/arrow_right.jpg" style="max-width: 7vw">
+    <div class="putMiddle boardPictureBox">
+      <img src="../../../../assets/arrow_right.jpg" class="toRightArrow">
     </div>
   </div>
   <div class="col-md-5">
@@ -35,9 +35,9 @@
     </div>
   </div>
   <div class="col-md-2">
-    <div class="putMiddle" style="width: 3vw ; height:32vh ; padding-left: 1vw">
-      <img src="../../../../assets/arrow_right.jpg" style="max-width: 7vw">
-      <p>Clean the background</p>
+    <div class="putMiddle boardPictureBox" style="flex-direction: column;">
+      <img src="../../../../assets/arrow_right.jpg" class="toRightArrow">
+      <p style="width:80%;">Clean the background</p>
     </div>
   </div>
   <div class="col-md-5">
@@ -46,9 +46,9 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-7">
-    <p style="margin: 2vw ; padding: 1vh ; border:1px solid grey">You can get the result after Calculation.
+<div class="row" style="margin: 10px 0;">
+  <div class="col-md-7 putMiddle" style="height:120px;">
+    <p style="padding: 10px ; border:1px solid grey">You can get the result after Calculation.
       <br>
       However, the application will output a picture for you to verify if the point is correct.
       <br>
@@ -56,9 +56,9 @@
       and the black point in the center of red area is the center of the area.
     </p>
   </div>
-  <div class="col-md-5 putMiddle">
+  <div class="col-md-5 putMiddle" style="height:120px;">
     <p style="display: inline">calculate</p>
-    <img src="../../../../assets/arrow_down.jpg" style="max-height: 7vw ; margin: 2vw">
+    <img src="../../../../assets/arrow_down.jpg" style="max-height: 100%;">
     <p style="display: inline">Get Result</p>
   </div>
 </div>
@@ -69,9 +69,9 @@
     </div>
   </div>
   <div class="col-md-2">
-    <div class="putMiddle" style="width: 3vw ; height:32vh ; padding-left: 1vw">
+    <div class="putMiddle boardPictureBox" style="flex-direction: column;">
       <p>Zoom in for detail</p>
-      <img src="../../../../assets/arrow_left.jpg" style="max-width: 7vw">
+      <img src="../../../../assets/arrow_left.jpg" class="toRightArrow">
     </div>
   </div>
   <div class="col-md-5">
@@ -83,42 +83,42 @@
 <hr>
 <p class="secondTopic">Part 2. Get the data</p>
 <p>
-  The data recorded in the txt file include the position x and position y of the picture 
+  The data recorded in the txt file include the position x and position y of the picture
   and the x,y,z value of the point in the real world.
   <br>
-  After getting the position data from part 1, the application will go into the txt file 
-  to find the x,y,z value. If there is no value of the point, it will find the nearest point 
+  After getting the position data from part 1, the application will go into the txt file
+  to find the x,y,z value. If there is no value of the point, it will find the nearest point
   which include a value.
 </p>
 <div class="row">
-  <div class="col-md-4 putMiddle">
-    <div class="boardFilePictureBox ">
+  <div class="col-md-4 ">
+    <div class="boardFilePictureBox putMiddle">
       <img src="../../../../assets/board_5.JPG" class="boardFilePicture">
     </div>
-    <p>Data Start</p>
+    <p class="putMiddle">Data Start</p>
   </div>
-  <div class="col-md-4 putMiddle">
-    <div class="boardFilePictureBox ">
+  <div class="col-md-4 ">
+    <div class="boardFilePictureBox putMiddle">
       <img src="../../../../assets/board_6.JPG" class="boardFilePicture">
     </div>
-    <p>Data End</p>
+    <p class="putMiddle">Data End</p>
   </div>
-  <div class="col-md-4 putMiddle">
-    <div class="boardFilePictureBox ">
+  <div class="col-md-4 ">
+    <div class="boardFilePictureBox putMiddle">
       <img src="../../../../assets/board_7.JPG" class="boardFilePicture">
     </div>
-    <p>Data with value</p>
+    <p class="putMiddle">Data with value</p>
   </div>
 </div>
 <hr>
 <p class="secondTopic">Part 3. Output the result</p>
 <p>
-  After getting the value, th application will output an excel file that include 
+  After getting the value, th application will output an excel file that include
   the origin 100 points, the 100 points where the value is got and the x,y,z value.
 </p>
 <div class="row">
   <div class="col-md-12 putMiddle">
-      <img src="../../../../assets/board_8.JPG">    
+      <img src="../../../../assets/board_8.JPG">
   </div>
 </div>
 <hr>
@@ -127,4 +127,4 @@
     href="https://github.com/z2486357/Python_readboard">https://github.com/z2486357/Python_readboard
   </a></p>
 <p style="display: inline">for the code.</p><br> <br>
-<img src="../../../../assets/back_button.jpg" class="button" style="height: 10vh" [routerLink]="['../']">
+<img src="../../../../assets/back_button.jpg" class="button" style="height: 100px" [routerLink]="['../']">

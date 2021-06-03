@@ -3,7 +3,7 @@
   <p class="topic">{{detailShow.topic}}</p>
   <p class="secondTopic">{{detailShow.secondTopic}}</p>
   <p class="period">{{detailShow.period}}</p>
-  <hr style="margin: 1vh">
+  <hr style="margin: 10px">
   <div class="descriptionBox">
     <div *ngFor="let item of detailShow.description">
       <p class="description">{{item}}</p>
@@ -11,7 +11,7 @@
     </div>
 
     <div *ngIf="detailShow.secondTopic=='IBM'">
-      <img src="../../../assets/IBMLogo.png" style="max-width: 40vw">
+      <img src="../../../assets/IBMLogo.png" style="max-width: 800px">
     </div>
 
 
@@ -28,7 +28,7 @@
 
     <br *ngIf="detailShow.topic=='Research Assitant'">
     <div *ngIf="detailShow.topic=='Research Assitant'"
-      style="padding: 1.5vh; border: 1px solid #DDD ;border-radius:10px">
+      style="padding: 15px; border: 1px solid #DDD ;border-radius:10px">
     <p style="font-weight: bold ; margin-bottom: 0">Industry-Academy Cooperation Project</p>
       <hr style="margin: 0">
       <p style="color: cadetblue ; text-decoration: underline;display: inline; font-weight: bold">
@@ -65,8 +65,8 @@
         Some of the departments in National Tsing Hua University are the top 1 in Taiwan.
       </p>
       <br>
-      <img src="../../../assets/NTHU_2.JPG" style="max-width: 40vw">
-      <img src="../../../assets/NTHU_1.jpg" style="max-width: 40vw">
+      <img src="../../../assets/NTHU_2.JPG" style="max-width: 800px">
+      <img src="../../../assets/NTHU_1.jpg" style="max-width: 800px">
       <br>
       <p style="display: inline">If you are interested, please visit </p>
       <p style="display: inline"><a href="https://www.nthu.edu.tw/">https://www.nthu.edu.tw/
@@ -80,7 +80,7 @@
   </div>
   <!-- Close Button -->
   <div class="alert-box-actions">
-    <button class="btn btn-primary" (click)="onClose()" style="margin-top: 2vh">Close</button>
+    <button class="btn btn-primary" (click)="onClose()" style="margin-top: 20px">Close</button>
   </div>
 
 </div>

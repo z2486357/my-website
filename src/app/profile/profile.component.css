@@ -18,20 +18,20 @@
 
 
 .year{
-    height: 6vh;
-    font-size: 4vh;
+    height: 60px;
+    font-size: 40px;
     color: #AAA;
     /* border: 1px solid #DDD; */
     margin-bottom: 0;
 }
 
 .rightLineBox{
-    height: 5vh;
+    height: 50px;
     border-right: 1px solid #DDD;
 }
 
 .leftLineBox{
-    height: 5vh;
+    height: 50px;
     border-left: 1px solid #DDD;
 }
 
@@ -49,24 +49,24 @@
 }
 
 .topic{
-    font-size: 3vh;
+    font-size: 30px;
     cursor: pointer;
     font-weight: bold;
     color: darkcyan;
     text-decoration: underline;
     text-align: left;
-    margin: 1vw;
+    margin: 20px;
     margin-bottom: 0
 }
 
 .secondTopic{
-    font-size: 2vh;
-    margin: 0vh;
+    font-size: 20px;
+    margin: 0;
 }
 
 .period{
-    font-size: 2vh;
-    margin: 0vh;
+    font-size: 20px;
+    margin: 0;
 }
 
 .profileChoose{
@@ -75,11 +75,11 @@
 }
 
 button.profileTitle{
-    width: 15vw
+    width: 300px;
 }
 
 .workTopic{
-    font-size: 4vh;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
 }
