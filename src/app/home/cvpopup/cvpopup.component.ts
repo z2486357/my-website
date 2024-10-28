@@ -10,7 +10,7 @@ export class CvpopupComponent {
 
 
   download(){
-    window.open("https://drive.google.com/file/d/16bWddBMqAEGWoFQPQ23cSlM_WDDw8yq1/view");
+    window.open("https://drive.google.com/file/d/1z8qxRfoksdqY8IAEQyLFpPVzglhrOzKj/view?usp=sharing");
   }
   onClose(){
       this.close.emit();

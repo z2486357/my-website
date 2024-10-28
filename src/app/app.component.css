@@ -1,10 +1,12 @@
-button.topic{
-    font-family: Arial, 'Times New Roman', Times;
-    border:none;
+button.topic {
+  font-family: Arial, 'Times New Roman', Times;
+  border: none;
 }
-.h1font{
-  font-family: fantasy , Arial, 'Times New Roman', Times;
+
+.h1font {
+  font-family: Verdana, sans-serif;
 }
-.clickable{
-    cursor: pointer;
+
+.clickable {
+  cursor: pointer;
 }

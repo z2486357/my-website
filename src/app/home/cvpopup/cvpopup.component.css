@@ -24,6 +24,10 @@
     overflow-y: scroll;
 }
 
+.resumeImg{
+    width: 100%;
+}
+
 
 .alert-box-actions{
     text-align: center;

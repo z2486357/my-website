@@ -5,6 +5,22 @@ export class ProfileStoreService {
   profileChoose = "work";
 
   experience = {
+    gep: {
+      name: "gep",
+      topic: "Senior Software Engineer",
+      secondTopic: "GEP Worldwide",
+      period: "06.2021 - 02.2024",
+      type: "work",
+      detail: false,
+      description: ["- Collaborated with UX designer to visualize the user interface of the product.",
+        "- Built large-scale web applications using various state management practices and open-source libraries.",
+        "- Developed RESTful API services.",
+        "- Implemented database functions.",
+        "- Implemented and managed CI/CD pipelines to automate the build, test, and deployment processes for applications.",
+        "- Designed and accomplished scalable Automated End-To-End Testing from scratch.",
+        "- Worked with multiple teams using Scrum framework to implement Agile for developing the product.",
+        "- Provided solution and knowledge transfer for all teams in the company and share the reference."],
+    },
     ibm: {
       name: "ibm",
       topic: "Application Developer",
